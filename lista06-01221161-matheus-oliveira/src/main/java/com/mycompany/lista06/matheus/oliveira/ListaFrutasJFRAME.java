@@ -120,14 +120,15 @@ public class ListaFrutasJFRAME extends javax.swing.JFrame {
     private void button_pesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_pesquisarActionPerformed
         ListaFrutas listaFrutas = new ListaFrutas();
         String frutaDigitada = input_frutas.getText();
-        
-        for (int i = 1; i < listaFrutas.getFrutas().size(); i++) {
+
+        for (int i = 0; i < listaFrutas.getFrutas().size(); i++) {
             if (frutaDigitada.equals(listaFrutas.getFrutas().get(i))) {
-                label_resultado_pesquisa.setText("A fruta " + 
-                        frutaDigitada + " existe na lista.");
-            }else{
-                label_resultado_pesquisa.setText("Não existe a fruta " + 
-                        frutaDigitada + " na lista.");
+                label_resultado_pesquisa.setText("A fruta "
+                        + frutaDigitada + " existe na lista.");
+                break;
+            } else {
+                label_resultado_pesquisa.setText("Não existe a fruta "
+                        + frutaDigitada + " na lista.");
             }
         }
     }//GEN-LAST:event_button_pesquisarActionPerformed
