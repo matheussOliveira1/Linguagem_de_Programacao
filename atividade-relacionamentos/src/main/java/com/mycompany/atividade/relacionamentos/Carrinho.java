@@ -46,7 +46,7 @@ public class Carrinho {
     public void limpar() {
 
         for (int i = 0; i < produtos.size(); i++) {
-            produtos.remove(i);
+            produtos.removeAll(produtos);
         }
     }
 
@@ -79,5 +79,10 @@ public class Carrinho {
             valorTotalCarrinho += produto.getPreco();
         }
         return valorTotalCarrinho;
+    }
+
+    @Override
+    public String toString() {
+        return "Carrinho{" + "cliente=" + cliente + ", produtos=" + produtos + '}';
     }
 }
