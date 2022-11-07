@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.113" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.019" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\zagreu\Desktop\Linguagem_de_Programacao\projeto1-heranca-completo\target\test-classes;C:\Users\zagreu\Desktop\Linguagem_de_Programacao\projeto1-heranca-completo\target\classes;C:\Users\zagreu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\zagreu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2\target\test-classes;C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2\target\classes;C:\Users\zagreu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\zagreu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
-    <property name="sun.java.command" value="C:\Users\zagreu\AppData\Local\Temp\surefire3963861340746336306\surefirebooter4866299973726051805.jar C:\Users\zagreu\AppData\Local\Temp\surefire3963861340746336306 2022-10-31T11-07-56_007-jvmRun1 surefire4024152802498282634tmp surefire_07737744516365427349tmp"/>
+    <property name="sun.java.command" value="C:\Users\zagreu\AppData\Local\Temp\surefire12802887290396122488\surefirebooter12311728885285274153.jar C:\Users\zagreu\AppData\Local\Temp\surefire12802887290396122488 2022-11-06T15-15-24_156-jvmRun1 surefire7727190586753838508tmp surefire_016669237698153465932tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\zagreu\Desktop\Linguagem_de_Programacao\projeto1-heranca-completo\target\test-classes;C:\Users\zagreu\Desktop\Linguagem_de_Programacao\projeto1-heranca-completo\target\classes;C:\Users\zagreu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\zagreu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2\target\test-classes;C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2\target\classes;C:\Users\zagreu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\zagreu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\zagreu"/>
     <property name="user.language" value="pt"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2021-01-19"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\zagreu\Desktop\Linguagem_de_Programacao\projeto1-heranca-completo"/>
+    <property name="basedir" value="C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\zagreu\AppData\Local\Temp\surefire3963861340746336306\surefirebooter4866299973726051805.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\zagreu\AppData\Local\Temp\surefire12802887290396122488\surefirebooter12311728885285274153.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
@@ -44,12 +44,12 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
-    <property name="maven.ext.class.path" value="D:\Program Files\NetBeans-12.6\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="maven.ext.class.path" value="D:\Program Files\NetBeans-12.6\netbeans\java\maven-nblib\netbeans-eventspy.jar;D:\Program Files\NetBeans-12.6\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\zagreu\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\zagreu\AppData\Local\Temp\"/>
     <property name="java.version" value="11.0.10"/>
-    <property name="user.dir" value="C:\Users\zagreu\Desktop\Linguagem_de_Programacao\projeto1-heranca-completo"/>
+    <property name="user.dir" value="C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,13 +61,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="getId(): quando acionado deve retornar o valor do id" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.055"/>
-  <testcase name="getPreco(): quando acionado deve retornar o valor do preço com imposto" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.001"/>
-  <testcase name="classe ProdutoInternacional deve conter apenas o getter sobrescrito" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.002"/>
-  <testcase name="getNome(): quando acionado deve retornar o valor do nome" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.001"/>
+  <testcase name="getId(): quando acionado deve retornar o valor do id" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.002"/>
+  <testcase name="getPreco(): quando acionado deve retornar o valor do preço com imposto - Cenário 1" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.001"/>
+  <testcase name="classe ProdutoInternacional deve conter apenas o getter sobrescrito" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.001"/>
+  <testcase name="getNome(): quando acionado deve retornar o valor do nome" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.003"/>
   <testcase name="getCategoria(): quando acionado o valor da categoria" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.001"/>
-  <testcase name="getPreco(): quando acionado e produto possui valor 4.500,99 deve retornar 7.201,584" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.001"/>
-  <testcase name="getPreco(): quando acionado e produto possui valor 0 deve retornar 0" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0"/>
-  <testcase name="classe ProdutoInternacional deve conter apenas getters" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.002"/>
+  <testcase name="getPreco(): quando acionado deve retornar o valor do preço com imposto - Cenário 2" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0"/>
+  <testcase name="classe ProdutoInternacional deve conter apenas getters" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.003"/>
   <testcase name="clasee ProdutoInternacional deve ser herdeira da classe Produto" classname="school.sptech.projeto1.heranca.ProdutoInternacionalTest" time="0.002"/>
 </testsuite>
