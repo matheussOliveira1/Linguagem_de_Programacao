@@ -22,7 +22,9 @@ public class Carrinho {
     List<Produto> produtos;
 
     public Carrinho() {
+
         produtos = new ArrayList();
+
     }
 
     /**
@@ -47,8 +49,10 @@ public class Carrinho {
      */
     public void removerProduto(int indice) {
 
-        for (int i = 0; i < produtos.size(); i++) {
+        if (indice <= produtos.size() && indice >= 0) {
+            
             produtos.remove(indice);
+
         }
 
     }
@@ -97,10 +101,10 @@ public class Carrinho {
      */
     public Produto findProdutoPeloIndice(Integer index) {
 
-        for (int i = 0; i < produtos.size(); i++) {
+        if (index <= produtos.size() && index >= 0) {
             return produtos.get(index);
         }
-        
+
         return null;
     }
 
@@ -172,6 +176,8 @@ public class Carrinho {
     }
 
     public List<Produto> getProdutos() {
+
         return produtos;
+
     }
 }

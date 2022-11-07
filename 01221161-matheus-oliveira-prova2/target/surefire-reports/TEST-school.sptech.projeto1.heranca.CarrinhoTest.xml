@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="school.sptech.projeto1.heranca.CarrinhoTest" time="0.141" tests="16" errors="2" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="school.sptech.projeto1.heranca.CarrinhoTest" time="0.123" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2\target\test-classes;C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2\target\classes;C:\Users\zagreu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\zagreu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\zagreu\Desktop\Linguagem_de_Programacao\01221161-matheus-oliveira-prova2\target\test-classes;C:\Users\zagreu\Desktop\Linguagem_de_Programacao\01221161-matheus-oliveira-prova2\target\classes;C:\Users\zagreu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\zagreu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,10 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
-    <property name="sun.java.command" value="C:\Users\zagreu\AppData\Local\Temp\surefire12802887290396122488\surefirebooter12311728885285274153.jar C:\Users\zagreu\AppData\Local\Temp\surefire12802887290396122488 2022-11-06T15-15-24_156-jvmRun1 surefire7727190586753838508tmp surefire_016669237698153465932tmp"/>
+    <property name="sun.java.command" value="C:\Users\zagreu\AppData\Local\Temp\surefire12736359618581814262\surefirebooter11001459902567155770.jar C:\Users\zagreu\AppData\Local\Temp\surefire12736359618581814262 2022-11-07T09-03-25_339-jvmRun1 surefire4267865041996818556tmp surefire_015510003628409250408tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2\target\test-classes;C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2\target\classes;C:\Users\zagreu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\zagreu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
+    <property name="test" value="school.sptech.projeto1.heranca.CarrinhoTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\zagreu\Desktop\Linguagem_de_Programacao\01221161-matheus-oliveira-prova2\target\test-classes;C:\Users\zagreu\Desktop\Linguagem_de_Programacao\01221161-matheus-oliveira-prova2\target\classes;C:\Users\zagreu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\zagreu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\zagreu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\zagreu"/>
     <property name="user.language" value="pt"/>
@@ -27,13 +28,13 @@
     <property name="java.version.date" value="2021-01-19"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2"/>
+    <property name="basedir" value="C:\Users\zagreu\Desktop\Linguagem_de_Programacao\01221161-matheus-oliveira-prova2"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\zagreu\AppData\Local\Temp\surefire12802887290396122488\surefirebooter12311728885285274153.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\zagreu\AppData\Local\Temp\surefire12736359618581814262\surefirebooter11001459902567155770.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
@@ -49,7 +50,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\zagreu\AppData\Local\Temp\"/>
     <property name="java.version" value="11.0.10"/>
-    <property name="user.dir" value="C:\Users\zagreu\Desktop\01221161-matheus-oliveira-prova2"/>
+    <property name="user.dir" value="C:\Users\zagreu\Desktop\Linguagem_de_Programacao\01221161-matheus-oliveira-prova2"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,35 +62,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="removerProduto(): dado um valor inválido não deve lançar um erro" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.048">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.IndexOutOfBoundsException: Index 8282 out of bounds for length 11
-	at school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorInvalidoMetodoRemoverProdutoNaoDeveLancarUmErro(CarrinhoTest.java:71)
-Caused by: java.lang.IndexOutOfBoundsException: Index 8282 out of bounds for length 11
-	at school.sptech.projeto1.heranca.CarrinhoTest.lambda$aoPassarUmValorInvalidoMetodoRemoverProdutoNaoDeveLancarUmErro$0(CarrinhoTest.java:71)
-	at school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorInvalidoMetodoRemoverProdutoNaoDeveLancarUmErro(CarrinhoTest.java:71)
-]]></failure>
-  </testcase>
-  <testcase name="adicionarProduto(): dado um valor válido deve adicionar o produto no carrinho" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.004"/>
-  <testcase name="adicionarProduto(): dado um valor inválido não deve adicionar o produto no carrinho" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.003"/>
-  <testcase name="findProdutoPeloNome(): quando nome inválido deve retornar null" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.003"/>
-  <testcase name="findProdutoPeloIndice(): quando índice inválido deve retornar null" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.002">
-    <error type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index 90 out of bounds for length 11
-	at school.sptech.projeto1.heranca.CarrinhoTest.quandoIndiceInvalidoMetodoFindProdutoPeloIndiceDeveRetornarNull(CarrinhoTest.java:111)
-]]></error>
-  </testcase>
-  <testcase name="findProdutoPeloNome(): quando nome válido caixa baixa deve retornar o produto encontrado" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.006"/>
-  <testcase name="removerProduto(): dado um valor válido deve remover o produto da lista" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001">
-    <error type="java.util.ConcurrentModificationException"><![CDATA[java.util.ConcurrentModificationException
-	at school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorValidoMetodoRemoverProdutoDeveRemoverOProdutoDaLista(CarrinhoTest.java:62)
-]]></error>
-  </testcase>
+  <testcase name="removerProduto(): dado um valor inválido não deve lançar um erro" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.053"/>
+  <testcase name="adicionarProduto(): dado um valor válido deve adicionar o produto no carrinho" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.003"/>
+  <testcase name="adicionarProduto(): dado um valor inválido não deve adicionar o produto no carrinho" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.002"/>
+  <testcase name="findProdutoPeloNome(): quando nome inválido deve retornar null" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.002"/>
+  <testcase name="findProdutoPeloIndice(): quando índice inválido deve retornar null" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.002"/>
+  <testcase name="findProdutoPeloNome(): quando nome válido caixa baixa deve retornar o produto encontrado" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.002"/>
+  <testcase name="removerProduto(): dado um valor válido deve remover o produto da lista" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
   <testcase name="parcelarCompra(): deve calcular o valor de cada parcela dependendo da quantidade selecionada" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
   <testcase name="countProdutosInternacionais(): deve retornar a quantidade de produtos internacionais no carrinho - Cenário 1" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
   <testcase name="findProdutoPorCategoria(): quando categoria inválida deve retornar uma lista vazia" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
-  <testcase name="findProdutoPeloIndice(): quando índice válido deve retornar o produto encontrado" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.002"/>
+  <testcase name="findProdutoPeloIndice(): quando índice válido deve retornar o produto encontrado" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
   <testcase name="findProdutoPorCategoria(): quando categoria válida e em caixa alta deve retornar todos os produtos encontrados" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
   <testcase name="findProdutoPeloNome(): quando nome válido deve retornar o produto encontrado" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
   <testcase name="calcularTotal(): deve calcular o valor de todos os itens do carrinho" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
-  <testcase name="findProdutoPorCategoria(): quando categoria válida deve retornar todos os produtos encontrados" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0"/>
-  <testcase name="countProdutosInternacionais(): deve retornar a quantidade de produtos internacionais no carrinho - Cenário 2" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
+  <testcase name="findProdutoPorCategoria(): quando categoria válida deve retornar todos os produtos encontrados" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.001"/>
+  <testcase name="countProdutosInternacionais(): deve retornar a quantidade de produtos internacionais no carrinho - Cenário 2" classname="school.sptech.projeto1.heranca.CarrinhoTest" time="0.002"/>
 </testsuite>

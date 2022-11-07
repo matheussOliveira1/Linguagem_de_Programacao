@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: school.sptech.projeto1.heranca.CarrinhoTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.141 s <<< FAILURE! - in school.sptech.projeto1.heranca.CarrinhoTest
-school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorInvalidoMetodoRemoverProdutoNaoDeveLancarUmErro  Time elapsed: 0.048 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.IndexOutOfBoundsException: Index 8282 out of bounds for length 11
-	at school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorInvalidoMetodoRemoverProdutoNaoDeveLancarUmErro(CarrinhoTest.java:71)
-Caused by: java.lang.IndexOutOfBoundsException: Index 8282 out of bounds for length 11
-	at school.sptech.projeto1.heranca.CarrinhoTest.lambda$aoPassarUmValorInvalidoMetodoRemoverProdutoNaoDeveLancarUmErro$0(CarrinhoTest.java:71)
-	at school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorInvalidoMetodoRemoverProdutoNaoDeveLancarUmErro(CarrinhoTest.java:71)
-
-school.sptech.projeto1.heranca.CarrinhoTest.quandoIndiceInvalidoMetodoFindProdutoPeloIndiceDeveRetornarNull  Time elapsed: 0.002 s  <<< ERROR!
-java.lang.IndexOutOfBoundsException: Index 90 out of bounds for length 11
-	at school.sptech.projeto1.heranca.CarrinhoTest.quandoIndiceInvalidoMetodoFindProdutoPeloIndiceDeveRetornarNull(CarrinhoTest.java:111)
-
-school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorValidoMetodoRemoverProdutoDeveRemoverOProdutoDaLista  Time elapsed: 0.001 s  <<< ERROR!
-java.util.ConcurrentModificationException
-	at school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorValidoMetodoRemoverProdutoDeveRemoverOProdutoDaLista(CarrinhoTest.java:62)
-
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in school.sptech.projeto1.heranca.CarrinhoTest
